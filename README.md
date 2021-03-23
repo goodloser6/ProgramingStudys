@@ -12,9 +12,9 @@ clip < ~/.ssh/id_rsa.pub
 
 ３　Githubにログインする
 
-４　対象のリポジトリ内の「Code」ボタン（緑）をクリックする
+４　ページ右上の自分のアカウントアイコンをクリックし、出てきたメニューから「Setting」をクリックする
 
-５　SSHタブをクリックし、「add a new public key」という文章内のリンクをクリックする
+５　左メニュー内から「SSH and GPG keys」ボタンをクリックし、「New SSH Key」ボタン（緑）をクリックする
 
 ６　「SSH keys / Add new」というページが表示される
 
