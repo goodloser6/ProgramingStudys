@@ -2,16 +2,28 @@
 ## ローカルのGitとGithubを連携させよう♪
 
 
+### ０　Gitを起動できるようにしておく
+
+Windows版に関しては、以下のページからダウンロードする<br>
+```https://gitforwindows.org/```
+
+ダウンロードが終わったら、デスクトップ上で右クリックし、表示されたメニューから「Git bash here」をクリックする
+
 ### １　SSH Keyの作成
+
+表示された黒い画面で以下のコマンドを入力し、Enterキーを押す<br>
 
 ```ssh-keygen -t rsa -b 4096 -C "your_email@example.com"```
 
+※「your_email@example.com」の部分はGithubに登録したメールアドレスを入力する
 ※示された場所にそのまま保存（Enterキーを押す）<br>
 ※「Enter passphrase (empty for no passphrase):」という感じでパスワード入力を求められるが、空欄のままEnterキーを押す<br>
 ※処理後の画面をキャプチャで残しておこう<br>
 
 
 ### ２　SSH Keyの内容をクリップボードにコピー
+
+黒い画面で以下のコマンドを入力し、Enterキーを押す<br>
 
 ```clip < ~/.ssh/id_rsa.pub```
 
@@ -41,5 +53,7 @@
 ### １０　鍵マークがついたSSH Keyが作成されていることを確認する
 
 ### １１　SSH用の記述でリポジトリをクローンする
+
+以下のコマンドを入力し、Enterキーを押す<br>
 
 ```git clone git@github.com:fukuda0330/ProgramingStudys.git```<br>
