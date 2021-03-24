@@ -7,7 +7,7 @@
 ```ssh-keygen -t rsa -b 4096 -C "your_email@example.com"```
 
 ※示された場所にそのまま保存（Enterキーを押す）<br>
-※パスワードを確認用と２度同じものを入力<br>
+※「Enter passphrase (empty for no passphrase):」という感じでパスワード入力を求められるが、空欄のままEnterキーを押す<br>
 ※処理後の画面をキャプチャで残しておこう<br>
 
 
