@@ -14,8 +14,8 @@ function BackColorChange(editorBackColor) {
   elmEditor.style.backgroundColor = editorBackColor;
 }
 function Copy(refrecttopallet){
-  let pallet = document.getElementById("pallet")  // 【fukudaコメント】一行の最後に他の箇所と同様に「;」（セミコロン）をつけた方がエラーが少なくなります♪
-  pallet.style.date = refrecttopallet
+  let pallet = document.getElementById("pallet"); // 【fukudaコメント】一行の最後に他の箇所と同様に「;」（セミコロン）をつけた方がエラーが少なくなります♪
+  pallet.value.data = refrecttopallet;
 
   // 【fukudaコメント】今回の対応のヒントとしては、上に記載されている
   // 　　　　　　　　　「let elmEditor = document.getElementById("editor");」を作っていただいたこのCopy関数の中で使います
